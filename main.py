@@ -38,7 +38,7 @@ def load_model(model_key):
 
     return f"已成功載入模型: {model_key}"
 # Groq翻譯機器人
-api_key = userdata.get('Groq')
+api_key = userdata.get('Groq') # api_key = your api key for Groq
 os.environ['OPENAI_API_KEY'] = api_key
 
 client = OpenAI(
