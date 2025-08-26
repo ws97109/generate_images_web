@@ -12,11 +12,6 @@
 
 ## 🛠️ 快速開始
 
-### 安裝依賴
-```bash
-pip install diffusers torch gradio matplotlib openai
-```
-
 ### 設定 API
 在 Google Colab 中設定 Groq API 金鑰，或設定環境變數：
 ```bash
@@ -24,8 +19,8 @@ export GROQ_API_KEY="your-api-key"
 ```
 
 ### 執行程式
-```bash
-python main.py
+```
+使用 Google Colab
 ```
 
 ## 🎯 使用方式
